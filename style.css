@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #252525;
+}
+h2{
+    margin-bottom: 20px;
+}
+input{
+    width: 99%;
+    padding: 16px;
+    font-size: 15px;
+    color: #252525;
+    border: 0px solid white;
+    border-radius: 5px;
+    background-color: #888888;
+}
+select{
+    background-color:  #888888;
+    border-radius: 5px;
+    width: 80%;
+    text-decoration: none;
+    color: #252525;
+    padding: 16px;
+    font-size: 15px;  
+    border: 0px solid white;  
+}
+.colorUno{
+    color: white;
+}
+.colorDos{
+    color: white;
+}
+.colorTres{
+    color: white;
+}
+::placeholder{
+    color: #252525;
+}
+.primerConte{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedorInput{
+    width: 100%;
+    max-width: 1400px;
+    background-color:#252525;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-left: 7px;
+    position: relative;
+}
+.contenedorSelect{
+    width: 100%;
+    max-width: 1400px;
+    background-color:#252525;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-left: 7px;
+
+}
+.izquierda{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 7px;
+}
+.tituloizq{
+    margin-right: 7px;
+    color: #FFFFFF;
+}
+.derecha{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;   
+}
+.titulodere{
+    margin-right: 7px;
+    color: #FFFFFF;
+    width: 19%;
+}
+.circulo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 16;
+    right:  6px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.fa-plus{
+    color: #888888;
+}
+.contenedor{
+    width: 95%;
+    max-width: 1400px;
+    margin-top: 35px;
+}
+#contenedorPorHacer{
+    width: 100%;
+    margin-bottom: 30px;
+}
+#contenedorPorHacer h2{
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+#contenedorCompletada{
+    width: 100%;
+}
+#contenedorCompletada h2{
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.tarea{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid #FFFFFF; 
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+.tareaCompletada{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+.titulo{
+    width: 48%;
+    margin-bottom: 15px;
+}
+.titulo h4{
+    color: #FFFFFF;
+}
+.extras{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.extras h5{
+    margin-right: 10px;
+    color: #FFFFFF;
+}
+.extrasCompletada{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.extrasCompletada h5{
+    margin-right: 10px;
+    color: #FFFFFF;
+}
+.prioridad{
+    width: 7%;
+    height: 8px;
+    margin-right: 20px;
+}
+.prioridadCompletada{
+    width: 7%;
+    height: 8px;
+    margin-right: 20px;
+}
+.asignacion{
+    width: 30%;
+}
+.asignacionCompletada{
+    width: 30%;
+}
+.tituloCompletada{
+    width: 48%;
+    margin-bottom: 15px;
+}
+.tituloCompletada h4{
+    color: #FFFFFF;
+}
+.logos{
+    width: 48%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.logosCompletada{
+    width: 48%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.fa-trash-alt{
+    font-size: 20px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.fa-trash-alt:hover{
+    color: red;
+}
+.fa-check-circle{
+    margin-left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.fa-check-circle:hover{
+
+    color: green;
+
+}
